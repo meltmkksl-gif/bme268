@@ -64,3 +64,4 @@ elif "h" in greeting and greeting.startswith("h"):
     print("$20")
 else:
     print("$100")   
+
