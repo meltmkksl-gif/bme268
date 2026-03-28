@@ -1,5 +1,5 @@
 
-'''''
+
 filename = input("Enter filename: ")
 keyword = input("Enter keyword: ")
 
@@ -13,7 +13,7 @@ with open(filename, "r") as f:
 
 print("Total lines found:", count)
 
-with open("file.txt", "r") as f:
+with open("data.txt", "r") as f:
     content = f.read()
 
 print("Total characters:", len(content))
@@ -34,7 +34,7 @@ with open(filename, "r") as f:
         if keyword in line:
             print(line.strip())
             count += 1
-'''
+
 with open("mel.txt", "r", encoding="utf-8") as f:
     content = f.read()
 
