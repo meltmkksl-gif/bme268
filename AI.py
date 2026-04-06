@@ -12,7 +12,7 @@ response = model.create_chat_completion(
     messages=[
         {
             "role": "system",
-            "content": "İngilizceye çevir."
+            "content": "Summarize the text in 2-3 sentences."
         },
         {
             "role": "user",
