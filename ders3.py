@@ -154,7 +154,7 @@ def fruit_by_color(color):
 
 color = input("Enter a color: ")
 print(fruit_by_color(color))     
-'''
+
 
 number = int(input("Enter a number: "))
 def is_divisible_by_3_and_5(number):
@@ -167,4 +167,15 @@ if is_divisible_by_3_and_5(number):
     print(f"{number} is divisible by both 3 and 5.")
 else:
     print(f"{number} is not divisible by both 3 and 5.")
+'''
+import random
+target = random.randint(1, 100)
+guess = 0
+while guess != target:
+    guess = int(input("1-100 arası bir tahmin yapın: "))
+    if guess < target:
+        print("Çok düşük!")
+    elif guess > target:
+        print("Çok yüksek!")
+print("Tebrikler, bildiniz!")
     
